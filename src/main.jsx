@@ -6,7 +6,7 @@ import Xyz from './xyz.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/* <App /> */}
-    <Xyz />
+    <App />
+    {/* <Xyz /> */}
   </StrictMode>,
 )
