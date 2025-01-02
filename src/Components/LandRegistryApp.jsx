@@ -8,7 +8,7 @@ const LandRegistryApp = () => {
 
   useEffect(() => {
     if (!mapRef.current) {
-      mapRef.current = L.map("map").setView([28.576371, 77.242340 ], 16); // Default view: Delhi
+      mapRef.current = L.map("map").setView([28.575055, 77.240647 ], 16.5); // Default view: Delhi
 
       L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
         maxZoom: 19,
