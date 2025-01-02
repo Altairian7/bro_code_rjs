@@ -3,7 +3,8 @@ import "./App.css";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer.jsx";
 import Food from "./Components/Food.jsx";
-import Card from "./Components/Card.jsx";
+import Card from "./Components/LandRegistryApp.jsx";
+import LandRegistryApp from "./Components/LandRegistryApp.jsx";
 
 function App() {
 
@@ -12,7 +13,8 @@ function App() {
       {/* <Header />
       <Food />
       <Footer /> */}
-      <Card />
+      <LandRegistryApp />
+      {/* <Card /> */}
     </>
   );
 }
